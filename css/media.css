@@ -1,5 +1,55 @@
-@media only screen and (max-width:991px) {
-    .container {
-        padding: 0 30px;
+@media only screen and (max-width:1245px) {
+    .container{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .item{
+        font-size: 20px !important;
+    }
+    .ul{
+        width: 350px;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .main__one{
+        top: 100px;
+    }
+    .stext{
+        font-size: 40px;
+    }
+    .stext2{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .threebox{
+        margin-bottom: 25px;
+    }
+    .threebox2{
+        margin-bottom: 25px;
+    }
+    .button{
+        width: 170px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .header{
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .stext{
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .logo{
+        font-size: 35px;
     }
 }
