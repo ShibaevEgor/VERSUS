@@ -6,7 +6,8 @@
 
 @media only screen and (max-width:800px) {
     .item{
-        font-size: 20px !important;
+        font-size: 20px;
+        line-height: 20px;
     }
     .ul{
         width: 350px;
@@ -47,9 +48,103 @@
         width: 100%;
     }
     .item{
-        font-size: 15px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .logo{
         font-size: 35px;
+    }
+    .stext2{
+        font-size: 45px;
+    }
+    .imgbox{
+        flex-direction: column;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        width: 100%;
+        margin: 0 auto;
+    }
+    .threebox{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .threebox2{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .threebox3{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .img{
+        width: 80%;
+        height: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    .header{
+        background-size: 100% 80%;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .ul{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .ul{
+        /* width: 65%; */
+        width: 250px;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .header{
+        background-size: 100% 70%;
+    }
+    .main__one{
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .item{
+        font-size: 15px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .ul{
+        /* width: 65%; */
+        width: 250px;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .header{
+        background-size: 100% 60%;
+    }
+    .logo{
+        font-size: 25px;
     }
 }
